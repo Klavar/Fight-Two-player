@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3CEAA341D5A5B8E0033981A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEAA311D5A5B8E0033981A /* Character.swift */; };
+		C3CEAA351D5A5B8E0033981A /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEAA321D5A5B8E0033981A /* Enemy.swift */; };
+		C3CEAA361D5A5B8E0033981A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEAA331D5A5B8E0033981A /* Player.swift */; };
 		C3E9EA671D594CFB00E4F24F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E9EA661D594CFB00E4F24F /* AppDelegate.swift */; };
 		C3E9EA691D594CFB00E4F24F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E9EA681D594CFB00E4F24F /* ViewController.swift */; };
 		C3E9EA6C1D594CFB00E4F24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E9EA6A1D594CFB00E4F24F /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3CEAA311D5A5B8E0033981A /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = "Fight 2 player/Character.swift"; sourceTree = "<group>"; };
+		C3CEAA321D5A5B8E0033981A /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enemy.swift; path = "Fight 2 player/Enemy.swift"; sourceTree = "<group>"; };
+		C3CEAA331D5A5B8E0033981A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "Fight 2 player/Player.swift"; sourceTree = "<group>"; };
 		C3E9EA631D594CFA00E4F24F /* Fight 2 player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fight 2 player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E9EA661D594CFB00E4F24F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E9EA681D594CFB00E4F24F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,9 @@
 		C3E9EA5A1D594CFA00E4F24F = {
 			isa = PBXGroup;
 			children = (
+				C3CEAA311D5A5B8E0033981A /* Character.swift */,
+				C3CEAA321D5A5B8E0033981A /* Enemy.swift */,
+				C3CEAA331D5A5B8E0033981A /* Player.swift */,
 				C3E9EA651D594CFB00E4F24F /* Fight 2 player */,
 				C3E9EA641D594CFA00E4F24F /* Products */,
 			);
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CEAA351D5A5B8E0033981A /* Enemy.swift in Sources */,
+				C3CEAA341D5A5B8E0033981A /* Character.swift in Sources */,
 				C3E9EA691D594CFB00E4F24F /* ViewController.swift in Sources */,
+				C3CEAA361D5A5B8E0033981A /* Player.swift in Sources */,
 				C3E9EA671D594CFB00E4F24F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +300,7 @@
 				C3E9EA771D594CFB00E4F24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
