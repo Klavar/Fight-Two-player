@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3A5D05F1D5BA1BE003B2AB1 /* Club.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A5D05B1D5BA1BE003B2AB1 /* Club.wav */; };
+		C3A5D0601D5BA1BE003B2AB1 /* Death.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A5D05C1D5BA1BE003B2AB1 /* Death.wav */; };
+		C3A5D0651D5BACAA003B2AB1 /* Music.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A5D0631D5BACAA003B2AB1 /* Music.wav */; };
+		C3A5D0661D5BACAA003B2AB1 /* Spear.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A5D0641D5BACAA003B2AB1 /* Spear.wav */; };
 		C3CEAA341D5A5B8E0033981A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEAA311D5A5B8E0033981A /* Character.swift */; };
 		C3CEAA351D5A5B8E0033981A /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEAA321D5A5B8E0033981A /* Enemy.swift */; };
 		C3CEAA361D5A5B8E0033981A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEAA331D5A5B8E0033981A /* Player.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3A5D05B1D5BA1BE003B2AB1 /* Club.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Club.wav; path = "Fight 2 player/Club.wav"; sourceTree = "<group>"; };
+		C3A5D05C1D5BA1BE003B2AB1 /* Death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Death.wav; path = "Fight 2 player/Death.wav"; sourceTree = "<group>"; };
+		C3A5D0631D5BACAA003B2AB1 /* Music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Music.wav; path = "Fight 2 player/Music.wav"; sourceTree = "<group>"; };
+		C3A5D0641D5BACAA003B2AB1 /* Spear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Spear.wav; path = "Fight 2 player/Spear.wav"; sourceTree = "<group>"; };
 		C3CEAA311D5A5B8E0033981A /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = "Fight 2 player/Character.swift"; sourceTree = "<group>"; };
 		C3CEAA321D5A5B8E0033981A /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enemy.swift; path = "Fight 2 player/Enemy.swift"; sourceTree = "<group>"; };
 		C3CEAA331D5A5B8E0033981A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "Fight 2 player/Player.swift"; sourceTree = "<group>"; };
@@ -44,6 +52,10 @@
 		C3E9EA5A1D594CFA00E4F24F = {
 			isa = PBXGroup;
 			children = (
+				C3A5D0631D5BACAA003B2AB1 /* Music.wav */,
+				C3A5D0641D5BACAA003B2AB1 /* Spear.wav */,
+				C3A5D05B1D5BA1BE003B2AB1 /* Club.wav */,
+				C3A5D05C1D5BA1BE003B2AB1 /* Death.wav */,
 				C3CEAA311D5A5B8E0033981A /* Character.swift */,
 				C3CEAA321D5A5B8E0033981A /* Enemy.swift */,
 				C3CEAA331D5A5B8E0033981A /* Player.swift */,
@@ -131,8 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A5D0661D5BACAA003B2AB1 /* Spear.wav in Resources */,
+				C3A5D0651D5BACAA003B2AB1 /* Music.wav in Resources */,
 				C3E9EA711D594CFB00E4F24F /* LaunchScreen.storyboard in Resources */,
 				C3E9EA6E1D594CFB00E4F24F /* Assets.xcassets in Resources */,
+				C3A5D0601D5BA1BE003B2AB1 /* Death.wav in Resources */,
+				C3A5D05F1D5BA1BE003B2AB1 /* Club.wav in Resources */,
 				C3E9EA6C1D594CFB00E4F24F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

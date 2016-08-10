@@ -39,6 +39,32 @@
                                     <constraint firstAttribute="height" constant="54" id="zbA-Rr-TPR"/>
                                 </constraints>
                             </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Enemy Head" translatesAutoresizingMaskIntoConstraints="NO" id="WjK-kI-cKR" userLabel="Player Head">
+                                <rect key="frame" x="5" y="474" width="161" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="166" id="fLX-xt-yFW"/>
+                                    <constraint firstAttribute="height" constant="88" id="o64-fl-gvZ"/>
+                                    <constraint firstAttribute="height" constant="88" id="oky-aH-S9n"/>
+                                    <constraint firstAttribute="height" constant="85" id="pcb-pK-eaM"/>
+                                    <constraint firstAttribute="width" constant="166" id="qNZ-vu-jA9"/>
+                                    <constraint firstAttribute="width" constant="161" id="xlT-ci-c3S"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fLX-xt-yFW"/>
+                                        <exclude reference="o64-fl-gvZ"/>
+                                        <exclude reference="oky-aH-S9n"/>
+                                        <exclude reference="qNZ-vu-jA9"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Player Head" translatesAutoresizingMaskIntoConstraints="NO" id="ask-wV-Z0J" userLabel="Enemy Head">
+                                <rect key="frame" x="418" y="463" width="173" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="SFf-H9-koy"/>
+                                    <constraint firstAttribute="width" constant="173" id="YBH-VT-0QF"/>
+                                </constraints>
+                            </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="BlQ-sQ-JYo" userLabel="Enemy">
                                 <rect key="frame" x="370" y="418" width="240" height="128"/>
                                 <constraints>
@@ -64,7 +90,7 @@
                                     <action selector="onAttackOnePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G6M-8X-Xtn"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13r-wv-ua0" userLabel="Attack 1 label">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Attack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13r-wv-ua0" userLabel="Attack 1 label">
                                 <rect key="frame" x="66" y="567" width="49.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -106,35 +132,56 @@
                             <constraint firstItem="eiP-s2-iEm" firstAttribute="centerX" secondItem="Fri-dq-uko" secondAttribute="centerX" id="7vI-DS-u29"/>
                             <constraint firstItem="13r-wv-ua0" firstAttribute="centerY" secondItem="Tpy-g5-dUq" secondAttribute="centerY" id="AEH-D4-zz3"/>
                             <constraint firstItem="Ef0-Hi-yOY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AHA-qj-Xxq"/>
+                            <constraint firstItem="13r-wv-ua0" firstAttribute="top" secondItem="WjK-kI-cKR" secondAttribute="bottom" constant="8" id="B7o-w4-GQ3"/>
                             <constraint firstItem="fCJ-v8-VIn" firstAttribute="centerY" secondItem="V4Y-ds-F02" secondAttribute="centerY" id="CRI-Sl-mQ8"/>
                             <constraint firstAttribute="bottom" secondItem="oNR-Sq-D6G" secondAttribute="bottom" id="DUF-iu-WEC"/>
                             <constraint firstItem="Tpy-g5-dUq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="E3q-Lr-RUH"/>
                             <constraint firstItem="oNR-Sq-D6G" firstAttribute="top" secondItem="OWs-Yp-YWI" secondAttribute="bottom" id="FPW-0e-HCC"/>
+                            <constraint firstItem="WjK-kI-cKR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Fgh-qj-oNH"/>
                             <constraint firstItem="fCJ-v8-VIn" firstAttribute="centerX" secondItem="V4Y-ds-F02" secondAttribute="centerX" id="FmY-XM-KCB"/>
                             <constraint firstItem="eiP-s2-iEm" firstAttribute="centerY" secondItem="Fri-dq-uko" secondAttribute="centerY" id="Fzd-eH-CJJ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BlQ-sQ-JYo" secondAttribute="trailing" constant="-30" id="GzK-4O-KmY"/>
+                            <constraint firstItem="13r-wv-ua0" firstAttribute="top" secondItem="WjK-kI-cKR" secondAttribute="bottom" constant="8" id="ItJ-Tg-9g4"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tpy-g5-dUq" secondAttribute="bottom" id="K7D-gQ-uLm"/>
+                            <constraint firstItem="WjK-kI-cKR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="ODE-ft-dbu"/>
                             <constraint firstItem="V4Y-ds-F02" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PKB-CJ-oJY"/>
+                            <constraint firstItem="13r-wv-ua0" firstAttribute="top" secondItem="WjK-kI-cKR" secondAttribute="bottom" constant="8" id="RCo-bD-QQA"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hUc-mT-GME" secondAttribute="bottom" id="Rh5-Se-5Q7"/>
                             <constraint firstItem="13r-wv-ua0" firstAttribute="centerX" secondItem="Tpy-g5-dUq" secondAttribute="centerX" id="S7x-jc-FQF"/>
+                            <constraint firstItem="WjK-kI-cKR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="SjI-55-88i"/>
                             <constraint firstItem="OWs-Yp-YWI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-50" id="TgA-KL-ORt"/>
+                            <constraint firstItem="V4Y-ds-F02" firstAttribute="top" secondItem="ask-wV-Z0J" secondAttribute="bottom" constant="8" id="W1d-Zx-hDw"/>
                             <constraint firstItem="Fri-dq-uko" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Za1-5m-dEn"/>
+                            <constraint firstItem="WjK-kI-cKR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Zod-9J-Ga3"/>
+                            <constraint firstItem="Tpy-g5-dUq" firstAttribute="top" secondItem="WjK-kI-cKR" secondAttribute="bottom" constant="5" id="aHl-qy-682"/>
                             <constraint firstItem="hUc-mT-GME" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bIq-Fu-obf"/>
                             <constraint firstItem="oNR-Sq-D6G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cfh-og-JeW"/>
+                            <constraint firstAttribute="trailing" secondItem="ask-wV-Z0J" secondAttribute="trailing" constant="9" id="e3Z-bo-7PE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V4Y-ds-F02" secondAttribute="bottom" id="goY-Bu-Eor"/>
                             <constraint firstItem="Fri-dq-uko" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hWV-mD-3GC"/>
                             <constraint firstItem="hUc-mT-GME" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jsH-Y4-dSo"/>
                             <constraint firstAttribute="trailing" secondItem="hUc-mT-GME" secondAttribute="trailing" id="sp3-OI-1ai"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Fgh-qj-oNH"/>
+                                <exclude reference="SjI-55-88i"/>
+                                <exclude reference="Zod-9J-Ga3"/>
+                                <exclude reference="B7o-w4-GQ3"/>
+                                <exclude reference="RCo-bD-QQA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="attackLabelOne" destination="13r-wv-ua0" id="FME-XM-IQK"/>
                         <outlet property="attackOne" destination="Tpy-g5-dUq" id="Qjg-T3-dBH"/>
                         <outlet property="attackTwo" destination="V4Y-ds-F02" id="rUY-kd-qIQ"/>
                         <outlet property="attacklabelTwo" destination="fCJ-v8-VIn" id="lWy-BF-dQa"/>
+                        <outlet property="enemyHead" destination="ask-wV-Z0J" id="0Xv-10-5Jv"/>
                         <outlet property="enemyImage" destination="BlQ-sQ-JYo" id="Hdk-KO-7PG"/>
                         <outlet property="infoLabel" destination="Fri-dq-uko" id="1Or-sg-3vE"/>
                         <outlet property="infoText" destination="eiP-s2-iEm" id="nFQ-ig-oBS"/>
+                        <outlet property="playerHead" destination="WjK-kI-cKR" id="qtU-fW-q61"/>
                         <outlet property="playerImage" destination="OWs-Yp-YWI" id="xaM-FJ-5A6"/>
                         <outlet property="startGame" destination="Ef0-Hi-yOY" id="Ae1-QU-unv"/>
                     </connections>
@@ -145,6 +192,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Enemy Head" width="247" height="239"/>
+        <image name="Player Head" width="116" height="164"/>
         <image name="Start-Game" width="639" height="92"/>
         <image name="bg" width="1024" height="677"/>
         <image name="enemy" width="241" height="348"/>
